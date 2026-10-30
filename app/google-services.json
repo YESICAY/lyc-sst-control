@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067314725280",
+    "project_id": "lyc-sst-control",
+    "storage_bucket": "lyc-sst-control.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067314725280:android:ba3b2e6f234fccc227a4c5",
+        "android_client_info": {
+          "package_name": "com.lyc.sstcontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmSPZlsEq_aCKOPXH4sKARmWyu955PWUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">SST Control</string>
+
+    <string name="logo_description">Logo de LYC</string>
+    <string name="login_title">SST CONTROL</string>
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">INGRESAR</string>
+    <string name="login_footer">Acceso controlado por el administrador</string>
+    <string name="show_password">Mostrar contraseña</string>
+    <string name="hide_password">Ocultar contraseña</string>
+
+    <string name="error_empty_fields">Escribe tu correo y tu contraseña.</string>
+    <string name="error_invalid_credentials">Correo o contraseña incorrectos.</string>
+    <string name="error_no_network">Sin conexión a internet. Revisa tu señal e intenta de nuevo.</string>
+    <string name="error_too_many_attempts">Demasiados intentos. Espera unos minutos.</string>
+    <string name="error_no_profile">Tu cuenta no tiene un perfil asignado. Contacta al administrador.</string>
+    <string name="error_inactive">Tu cuenta está desactivada. Contacta al administrador.</string>
+    <string name="error_unknown">Ocurrió un error inesperado. Intenta de nuevo.</string>
+
+    <string name="role_admin">Administrador</string>
+    <string name="role_inspector">Inspector</string>
+    <string name="sign_out">Cerrar sesión</string>
+
+    <string name="nav_assign">Asignar</string>
+    <string name="nav_create">Crear</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_task">Mi tarea</string>
+    <string name="placeholder_coming_soon">Esta pantalla se construirá en los próximos pasos.</string>
+    <string name="create_title">Crear usuario</string>
+    <string name="create_subtitle">Registra un nuevo miembro en el sistema</string>
+    <string name="create_full_name">Nombre completo</string>
+    <string name="create_email">Correo electrónico</string>
+    <string name="create_role">Rol de usuario</string>
+    <string name="create_button">CREAR USUARIO</string>
+
+    <string name="create_error_empty">Completa el nombre y el correo.</string>
+    <string name="create_error_invalid_email">Escribe un correo válido.</string>
+    <string name="create_error_email_in_use">Ya existe una cuenta con ese correo.</string>
+    <string name="create_error_no_network">Sin conexión a internet. Conéctate para crear usuarios.</string>
+    <string name="create_error_not_allowed">No tienes permiso para crear usuarios.</string>
+    <string name="create_error_unknown">No se pudo crear el usuario. Intenta de nuevo.</string>
+
+    <string name="credentials_title">Usuario creado</string>
+    <string name="credentials_message">Entrega estas credenciales a %1$s. La contraseña temporal solo se muestra ahora, así que cópiala o anótala antes de continuar.</string>
+    <string name="credentials_email_label">Correo</string>
+    <string name="credentials_password_label">Contraseña temporal</string>
+    <string name="credentials_copy">Copiar</string>
+    <string name="credentials_done">Listo</string>
+    <string name="credentials_copied">Credenciales copiadas</string>
+    <string name="credentials_clipboard_text">Correo: %1$s\nContraseña temporal: %2$s</string>
+
+    <string name="login_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_reset_sent">Si el correo está registrado, recibirás un enlace para restablecer tu contraseña. Revisa también la carpeta de spam.</string>
+    <string name="error_invalid_email">Escribe un correo válido en el campo de correo.</string>
+
+    <string name="date_today">Hoy</string>
+    <string name="date_yesterday">Ayer</string>
+    <string name="date_tomorrow">Mañana</string>
+    <string name="action_accept">Aceptar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="type_epp">EPP</string>
+    <string name="type_heights">Alturas</string>
+    <string name="type_electrical">Eléctrica</string>
+
+    <string name="assign_title">Asignar inspección</string>
+    <string name="assign_subtitle">Selecciona un inspector y define el tipo de tarea</string>
+    <string name="assign_inspector">Inspector responsable</string>
+    <string name="assign_type">Tipo de inspección</string>
+    <string name="assign_location">Lugar</string>
+    <string name="assign_due_date">Fecha límite</string>
+    <string name="assign_button">CONFIRMAR ASIGNACIÓN</string>
+    <string name="assign_no_inspectors">No hay inspectores activos. Crea uno en la pestaña Crear.</string>
+    <string name="assign_recent">ASIGNACIONES RECIENTES</string>
+    <string name="assign_recent_empty">Aún no hay asignaciones.</string>
+    <string name="assign_success">Inspección asignada correctamente.</string>
+    <string name="assign_error_incomplete">Completa inspector, tipo, lugar y fecha límite.</string>
+    <string name="assign_error_no_network">Sin conexión a internet. Conéctate para asignar inspecciones.</string>
+    <string name="assign_error_not_allowed">No tienes permiso para esta acción.</string>
+    <string name="assign_error_unknown">No se pudo completar la acción. Intenta de nuevo.</string>
+
+    <string name="inbox_greeting">Hola, %1$s</string>
+    <string name="inbox_title">Tus tareas asignadas</string>
+    <string name="inbox_empty">No tienes inspecciones asignadas por ahora.</string>
+    <string name="inbox_type">TIPO</string>
+    <string name="inbox_location">LUGAR</string>
+    <string name="inbox_due">FECHA LÍMITE</string>
+    <string name="inbox_overdue">vencida</string>
+    <string name="inbox_start">INICIAR INSPECCIÓN</string>
+    <string name="inbox_start_soon">El formulario de inspección se construirá en el siguiente paso.</string>
+
+    <string name="form_title_format">Inspección %1$s</string>
+    <string name="form_progress">Progreso: %1$d%% completado</string>
+    <string name="form_step">Paso %1$d de %2$d</string>
+    <string name="form_status_good">Bueno</string>
+    <string name="form_status_regular">Regular</string>
+    <string name="form_status_bad">Malo</string>
+    <string name="form_note_hint">Describe el defecto…</string>
+    <string name="form_photo_add">Subir evidencia</string>
+    <string name="form_photo_retake">Cambiar foto</string>
+    <string name="form_photo_error">No se pudo procesar la foto. Intenta de nuevo.</string>
+    <string name="form_next">GUARDAR Y CONTINUAR</string>
+    <string name="form_back">Revisar pasos anteriores</string>
+    <string name="form_error_incomplete">Completa todos los ítems. Si algo está Regular o Malo, agrega una descripción y una foto.</string>
+    <string name="form_summary_title">Resumen y envío</string>
+    <string name="form_summary_counts">Bueno: %1$d · Regular: %2$d · Malo: %3$d</string>
+    <string name="form_general_notes">Observaciones generales (opcional)</string>
+    <string name="form_gps_ok">Ubicación registrada</string>
+    <string name="form_gps_waiting">Obteniendo ubicación…</string>
+    <string name="form_gps_missing">Sin ubicación: activa el GPS y otorga el permiso para registrar el lugar de la inspección.</string>
+    <string name="form_submit">ENVIAR REPORTE</string>
+    <string name="form_sent_title">Reporte guardado</string>
+    <string name="form_sent">Tu reporte quedó guardado. Si no hay internet, se enviará automáticamente cuando vuelva la conexión.</string>
+    <string name="form_close">Cerrar</string>
+
+    <string name="history_title">Historial de inspecciones</string>
+    <string name="history_search">Buscar inspección, inspector…</string>
+    <string name="history_filter_all">Todas</string>
+    <string name="history_empty">No hay inspecciones para mostrar.</string>
+    <string name="history_detail">Ver detalle</string>
+    <string name="status_approved">Aprobado</string>
+    <string name="status_risk">Riesgo</string>
+    <string name="status_pending">Pendiente</string>
+
+    <string name="detail_title">Detalle de la inspección</string>
+    <string name="detail_back">Volver</string>
+    <string name="detail_inspector">Inspector</string>
+    <string name="detail_location">Lugar</string>
+    <string name="detail_assigned">Asignada</string>
+    <string name="detail_due">Fecha límite</string>
+    <string name="detail_sent">Enviada</string>
+    <string name="detail_gps">Ubicación</string>
+    <string name="detail_no_gps">No registrada</string>
+    <string name="detail_open_map">Ver en el mapa</string>
+    <string name="detail_results">Resultados</string>
+    <string name="detail_notes">Observaciones generales</string>
+    <string name="detail_not_submitted">Esta inspección aún no ha sido enviada por el inspector.</string>
+    <string name="detail_loading_error">No se pudo cargar el detalle. Revisa tu conexión.</string>
+</resources>
